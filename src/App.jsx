@@ -14,6 +14,8 @@ import Login from "./Menu-click-nav/Login";
 import Test from "./move-on-click/test";
 import Fast from "./move-on-click/Fast";
 import Jonh from "./move-on-click/jonh";
+import Therain from "./move-on-click/Therain";
+import Extension from "./move-on-click/Extension";
 
 function App() {
   const location = useLocation();
@@ -41,6 +43,9 @@ function App() {
           <Route path="/test" element={<Test />} />
           <Route path="/fast" element={<Fast />} />
           <Route path="/jonh" element={<Jonh />} />
+          <Route path="/therain" element={<Therain />} />
+          <Route path="/extension" element={<Extension />} />
+
 
 
 

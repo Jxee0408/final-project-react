@@ -41,18 +41,25 @@ function Content() {
           </p>
         </div>
         </Link>
+
+        <Link to='/therain'>
         <div>
           <img src="/2.jpeg" alt="" className="rounded-2xl hover:scale-103 transition-transform duration-300 cursor-pointer" />
           <p className="text-white ml-2 mt-2 text-ml">
             The Raid – ບຸກຕາຍອາຄານນະລົກ
           </p>
         </div>
+        </Link>
+
+        <Link to='/extension'>
         <div>
           <img src="/1.jpeg" alt="" className="rounded-2xl hover:scale-103 transition-transform duration-300 cursor-pointer" />
           <p className="text-white ml-2 mt-2 text-ml">
             Extraction – ພາລະກິດຕາຍທີ່ຄົນບໍ່ມີຫຍັງໃຫ້ເສຍ, ເລືອກ, ຮັບ{" "}
           </p>
         </div>
+        </Link>
+
         <Link to='/jonh'>
         <div>
           <img src="/3.jpeg" alt="" className="rounded-2xl hover:scale-103 transition-transform duration-300 cursor-pointer" />
